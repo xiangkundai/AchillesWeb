@@ -1,0 +1,36 @@
+{
+"content": [
+	{
+		"label": "Stage0",
+		"value": 1849
+	},
+	{
+		"label": "Stage1",
+		"value": 77
+	},
+	{
+		"label": "Stage2",
+		"value": 143
+	},
+	{
+		"label": "Stage3",
+		"value": 948
+	},
+	{
+		"label": "Stage4",
+		"value": 568
+	},
+	{
+		"label": "Stage5",
+		"value": 215
+	},
+	{
+		"label": "Stage6",
+		"value": 1468
+	},
+	{
+		"label": "Stage7",
+		"value": 2429
+	}
+]
+}
