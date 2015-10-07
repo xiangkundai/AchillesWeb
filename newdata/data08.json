@@ -1,35 +1,35 @@
 {
 "content": [
 	{
-		"label": "Stage0",
+		"label": "No CKD",
 		"value": 1849
 	},
 	{
-		"label": "Stage1",
+		"label": "CKD I",
 		"value": 77
 	},
 	{
-		"label": "Stage2",
+		"label": "CKD II",
 		"value": 143
 	},
 	{
-		"label": "Stage3",
+		"label": "CKD III",
 		"value": 948
 	},
 	{
-		"label": "Stage4",
+		"label": "CKD IV",
 		"value": 568
 	},
 	{
-		"label": "Stage5",
+		"label": "CKD V",
 		"value": 215
 	},
 	{
-		"label": "Stage6",
+		"label": "END STAGE",
 		"value": 1468
 	},
 	{
-		"label": "Stage7",
+		"label": "CKD UNSPECIFIED",
 		"value": 2429
 	}
 ]

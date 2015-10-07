@@ -30,39 +30,39 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="collapse-menu">
-				<ul class="nav navbar-nav navbar-right">	
+				<ul class="nav navbar-nav navbar-right">
 					<li><a href="index.html">Return to Dashboard</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-	
+
 	<br>
 	<br>
-	
+
 	<h1>Our New View</h1>
 	<h2>Why we add this new visualization</h2>
 	<p>We add this visualization because ...</p>
 
 	<br>
-	
+
 	<div class="container">
         <div class="row">
             <div class="col-sm-6">
                 <div id="originalchart">
-                    
+
                 </div>
             </div>
             <div class="col-sm-6">
                 <div id="newchart">
-                    
+
                 </div>
             </div>
-            
+
         </div>
     </div>
-    
-    
+
+
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.4/d3.min.js"></script>
 	<script src="js/d3pie.min.js"></script>
 	<script>
@@ -78,7 +78,7 @@
 					font: "open sans"
 				},
 				subtitle: {
-					text: "Click any segment to show the progression of CKD in 2009 for the corresponding population",
+					text: "Click any segment to show the progression of CKD in 2009 and 2010 for the corresponding population",
 					color: "#999999",
 					fontSize: 12,
 					font: "open sans"
@@ -139,12 +139,12 @@
 			},
 			callbacks: {
 				onClickSegment: function(a) {
-					drawChart(a["data"]["label"]);		
+					drawChart(a["data"]["label"]);
 				}
 			}
 		});
   	});
-  	
+
   	function drawChart(stage) {
 	  	document.getElementById("newchart").innerHTML = "";
 	  	var file = "newdata/"+stage+".json"
@@ -155,7 +155,7 @@
 			var pie = new d3pie("newchart", {
 				header: {
 					title: {
-						text: "New stages in 2009 for the pupulation with "+stage+" in 2008",
+						text: "New stages in 2009 and 2010 for the pupulation with "+stage+" in 2008",
 						fontSize: 23,
 						font: "open sans"
 					},
@@ -222,8 +222,8 @@
 			});
 		});
   	}
-  	</script>    
-    
+  	</script>
+
 </body>
 
 </html>
